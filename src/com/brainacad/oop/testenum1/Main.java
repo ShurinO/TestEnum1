@@ -5,5 +5,15 @@ public class Main {
         for (MyDayOfWeek myDayOfWeek:MyDayOfWeek.values()) {
             System.out.println(myDayOfWeek);
         }
+
+        System.out.println("--------------------------LabWork_2.13.2-----------------------");
+        for (MyDayOfWeek myDayOfWeek:MyDayOfWeek.values()) {
+            switch (myDayOfWeek){
+                case MONDAY:
+                case WEDNESDAY:
+                case FRIDAY:
+                    System.out.println(myDayOfWeek);
+            }
+        }
     }
 }
